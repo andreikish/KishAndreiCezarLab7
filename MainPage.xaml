@@ -7,6 +7,7 @@
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25">
+
             <Image
                 Source="dotnet_bot.png"
                 HeightRequest="185"
@@ -30,6 +31,25 @@
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Fill" />
+
+            <VerticalStackLayout Padding="20" Spacing="15">
+                <Frame BorderColor="Gray" CornerRadius="10" Padding="10">
+                    <VerticalStackLayout>
+                        <Image Source="student1.png" HeightRequest="150" Aspect="AspectFit" />
+                        <Label Text="Andrei Cezar - Passionate about technology and AI" 
+                               HorizontalOptions="Center" 
+                               Style="{StaticResource Body}" />
+                    </VerticalStackLayout>
+                </Frame>
+                <Frame BorderColor="Gray" CornerRadius="10" Padding="10">
+                    <VerticalStackLayout>
+                        <Image Source="student2.png" HeightRequest="150" Aspect="AspectFit" />
+                        <Label Text="Maria Ionescu - Enthusiastic about software development" 
+                               HorizontalOptions="Center" 
+                               Style="{StaticResource Body}" />
+                    </VerticalStackLayout>
+                </Frame>
+            </VerticalStackLayout>
         </VerticalStackLayout>
     </ScrollView>
 
