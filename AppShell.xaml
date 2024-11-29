@@ -8,14 +8,14 @@
     Title="KishAndreiCezarLab7">
 
     <TabBar>
-        <ShellContent 
-            Title="Shopping Lists" 
-            ContentTemplate="{DataTemplate local:MainPage}" 
+        <ShellContent
+            Title="Shopping Lists"
+            ContentTemplate="{DataTemplate local:MainPage}"
             />
-        <ShellContent 
-            Title="About" 
-            ContentTemplate="{DataTemplate local:AboutPage}" 
-            />      
+        <ShellContent
+             Title="About"
+             ContentTemplate="{DataTemplate local:AboutPage}"
+             /> 
     </TabBar>
 
 </Shell>

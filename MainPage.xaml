@@ -7,7 +7,6 @@
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25">
-
             <Image
                 Source="dotnet_bot.png"
                 HeightRequest="185"
@@ -31,25 +30,27 @@
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Fill" />
+            <Image
+                Source="andrei.jpg"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="Imagine cu studentul Andrei" />
 
-            <VerticalStackLayout Padding="20" Spacing="15">
-                <Frame BorderColor="Gray" CornerRadius="10" Padding="10">
-                    <VerticalStackLayout>
-                        <Image Source="student1.png" HeightRequest="150" Aspect="AspectFit" />
-                        <Label Text="Andrei Cezar - Passionate about technology and AI" 
-                               HorizontalOptions="Center" 
-                               Style="{StaticResource Body}" />
-                    </VerticalStackLayout>
-                </Frame>
-                <Frame BorderColor="Gray" CornerRadius="10" Padding="10">
-                    <VerticalStackLayout>
-                        <Image Source="student2.png" HeightRequest="150" Aspect="AspectFit" />
-                        <Label Text="Maria Ionescu - Enthusiastic about software development" 
-                               HorizontalOptions="Center" 
-                               Style="{StaticResource Body}" />
-                    </VerticalStackLayout>
-                </Frame>
-            </VerticalStackLayout>
+            <Label
+                Text="Salut, eu sunt Andrei si sunt student la informatica!"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+
+            <Image
+                Source="ioana.png"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="Imagine cu studenta Ioana" />
+
+            <Label
+                Text="Buna, eu sunt Ioana si sunt studenta la medicina!"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
         </VerticalStackLayout>
     </ScrollView>
 
