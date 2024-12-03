@@ -1,6 +1,10 @@
 ﻿using System;
 using KishAndreiCezarLab7.Data;
 using System.IO;
+using Microsoft.Maui;
+using Microsoft.Maui.Hosting;
+using Microsoft.Maui.Controls.Compatibility;
+using Microsoft.Maui.Controls.Hosting;
 
 namespace KishAndreiCezarLab7
 {
@@ -14,8 +18,7 @@ namespace KishAndreiCezarLab7
                 if (database == null)
                 {
                     database = new
-                   ShoppingListDatabase(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.
-                   LocalApplicationData), "ShoppingList.db3"));
+                   ShoppingListDatabase(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "ShoppingList.db3"));
                 }
                 return database;
             }
